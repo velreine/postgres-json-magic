@@ -1,3 +1,4 @@
+```sql
 DROP TABLE public.user_groups;
 DROP TABLE public.users;
 DROP TABLE public.groups;
@@ -80,3 +81,4 @@ FROM	(
 	) AS groups
 	FROM users u
 ) t;
+```sql

@@ -1,3 +1,8 @@
+# PostgreSQL JSON Magic.
+Makes postgres serialize an example object graph, here the "root" object is user, and the related "groups" are a ManyToMany relationship.
+Instead of using JOINS Subqueries are leveraged to serialize nested objects.
+
+
 ```sql
 DROP TABLE public.user_groups;
 DROP TABLE public.users;
